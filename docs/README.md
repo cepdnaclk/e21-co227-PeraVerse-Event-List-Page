@@ -49,13 +49,12 @@ Our team was responsible for building the Events Dashboard with interactive feat
 The Event List Page provides:
 
 - Clear interface for exploring event information
-- Dynamic attendance system (replacing the "interested" system)
+- Dynamic attendance system
 - Real-time updates for attendance counts and attendee lists
 - Interactive rating system with 1-5 stars and averages
 - Comprehensive comment system for feedback
 - Category-based filtering for event discovery
 - Direct Supabase integration for instant synchronization
-- Complete REST API with Swagger documentation
 - Modern, cloud-hosted full-stack experience
 
 ## Features & Architecture
@@ -66,7 +65,6 @@ Key Features:
 - Attendance: mark/unmark, live count, attendee list
 - Ratings: 1–5 stars, average rating, prevent duplicates
 - Comments: add, edit, delete, real-time sync
-- Full API documentation with Swagger UI
 
 Architecture Overview:
 - **Frontend:** React + Vite, Tailwind CSS + Bulma, reusable components, Supabase client
