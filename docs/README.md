@@ -4,13 +4,13 @@ permalink: index.html
 
 # Please update this with your repository name and title
 repository-name: e21-co227-PeraVerse-Event-List-Page
-title:Event List Page of PeraVerse's Dynamic Schedule Board
+title: Event List Page of PeraVerse's Dynamic Schedule Board
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
-Event List Page of PeraVerse
+# Event List Page of PeraVerse
+
 
 
 
@@ -21,28 +21,44 @@ This is a sample image, to show how to add images to your page. To learn more op
  -->
 
 ## Team
--  E/21/442, Wijenayaka D.L.P.A., [email](e21442@eng.pdn.ac.lk)
--  E/21/289, Perera I.S.A, [email](e21289@eng.pdn.ac.lk)
--  E/21/068, Chandrasiri E.M.D.D.V., [email](e21068@eng.pdn.ac.lk)
--  E/21/328, Rathnayaka R.M.P.M., [email](e21328@eng.pdn.ac.lk)
+-  E/21/442, Wijenayaka D.L.P.A., e21442@eng.pdn.ac.lk
+-  E/21/289, Perera I.S.A, e21289@eng.pdn.ac.lk
+-  E/21/068, Chandrasiri E.M.D.D.V., e21068@eng.pdn.ac.lk
+-  E/21/328, Rathnayaka R.M.P.M., e21328@eng.pdn.ac.lk
 
 ## Supervisors
--  Ms. Yasodha Vimukthi, [email](yasodhav@eng.pdn.ac.lk)
+-  Ms. Yasodha Vimukthi, yasodhav@eng.pdn.ac.lk
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
-3. [Links](#links)
+2. [Solution & Impact](#solution--impact)
+3. [Features & Architecture](#Features--Architecture)
+4. [How to Run / Development Notes](#how-to-run--development-notes)
+5. [Links](#links)
 
 ---
 
 ## Introduction
 
- description of the real world problem and solution, impact
+ This is a full-stack event management web application developed as a comprehensive platform for browsing and interacting with events.
 
-## Other Sub Topics
+Our team was responsible for building the Events Dashboard with interactive features, which serves as the user's main interaction point for viewing detailed event information, marking attendance, rating events, commenting, and filtering by categories. This application is fully responsive, cloud-ready, and connected to a real backend API with Supabase database integration.
 
-.....
+## Solution & Impact
+
+The Event List Page provides:
+
+- Clear interface for exploring event information
+- Dynamic attendance system (replacing the "interested" system)
+- Real-time updates for attendance counts and attendee lists
+- Interactive rating system with 1-5 stars and averages
+- Comprehensive comment system for feedback
+- Category-based filtering for event discovery
+- Direct Supabase integration for instant synchronization
+- Complete REST API with Swagger documentation
+- Modern, cloud-hosted full-stack experience
+
+## Features & Architecture
 
 ## Links
 
