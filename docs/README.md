@@ -60,10 +60,61 @@ The Event List Page provides:
 
 ## Features & Architecture
 
+Key Features:
+- Event Cards with title, time, venue, categories
+- Category filters + real-time search
+- Attendance: mark/unmark, live count, attendee list
+- Ratings: 1–5 stars, average rating, prevent duplicates
+- Comments: add, edit, delete, real-time sync
+- Full API documentation with Swagger UI
+
+Architecture Overview:
+- **Frontend:** React + Vite, Tailwind CSS + Bulma, reusable components, Supabase client
+- **Backend:** Node.js + Express, routes for events, categories, attendance, ratings, comments
+- **Database:** Supabase PostgreSQL (events, categories, attendance, comments, ratings)
+- **Deployment:** Cloud-ready frontend & backend, Supabase database, .env-based config
+
+## How to Run / Development Notes
+
+1.Clone Repository
+
+```bash
+git clone https://github.com/cepdnaclk/e21-co227-PeraVerse-Event-List-Page.git
+cd e21-co227-PeraVerse-Event-List-Page
+```
+2.Install Dependencies
+
+Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+Environment Variables Edit .env file inside the backend:
+```bash
+SUPABASE_URL="Your Supabase URL"
+SUPABASE_ANON_KEY="Your Supabase Anon Key"
+SUPABASE_SERVICE_KEY="Your Supabase Service Key"
+NODE_ENV=development
+PORT=3000
+```
+
+Deployment:
+- Start backend on http://localhost:3000
+- Start frontend on http://localhost:5173
+- Navigate to the Event List Page
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/e21-co227-PeraVerse-Event-List-Page)
+- [Project Page](https://cepdnaclk.github.io/page.e21-co227-PeraVerse-Event-List-Page)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
