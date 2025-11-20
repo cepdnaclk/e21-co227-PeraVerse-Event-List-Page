@@ -85,7 +85,7 @@ cd e21-co227-PeraVerse-Event-List-Page
 Frontend
 
 ```bash
-cd frontend
+cd frontend/dashboard
 npm install
 npm run dev
 ```
