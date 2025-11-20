@@ -3,15 +3,16 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-XXX-project-template
-title:
+repository-name: e21-co227-PeraVerse-Event-List-Page
+title:Event List Page of PeraVerse's Dynamic Schedule Board
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
 # Project Title
+Event List Page of PeraVerse
 
----
+
 
 <!-- 
 This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
@@ -20,9 +21,13 @@ This is a sample image, to show how to add images to your page. To learn more op
  -->
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/21/442, Wijenayaka D.L.P.A., [email](e21442@eng.pdn.ac.lk)
+-  E/21/289, Perera I.S.A, [email](e21289@eng.pdn.ac.lk)
+-  E/21/068, Chandrasiri E.M.D.D.V., [email](e21068@eng.pdn.ac.lk)
+-  E/21/328, Rathnayaka R.M.P.M., [email](e21328@eng.pdn.ac.lk)
+
+## Supervisors
+-  Ms. Yasodha Vimukthi, [email](yasodhav@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
